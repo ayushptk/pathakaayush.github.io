@@ -1,57 +1,209 @@
-<!--New html page on Codepen.io-->
-<!--HTml site in cyber network-->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 
-  <head>
-    <title>Navigation bar</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <body>
-    <!--
-       //code here...
-     -->
-    <div class="html-container">
-      <div class="html-section">
-        <div class="html-project">
-          <div class="navigation">
-            <nav>
-              <ul class="nav-type">
-                <li><a href="#" target="_blank" class="active">Home</a></li>
-                <li><a href="#" target="_blank" class="active1">About</a></li>
-                <li><a href="#" target="_blank" class="active2">Contact</a></li>
-                <li><a href="#" target="_blank" class="active3">Support</a></li>
-              <!--   <div class="line"></div> -->
-                <li><a><i class="fa fa-search" onclick="show()">
-                  </i></a></li>
-              </ul>
-            </nav>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300&family=Monoton&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+  <div id="header">
+    <nav>
+      <input type="checkbox" id="check" name="" value="">
+      <label for="check" id="checkbtn"><i class="fa fa-bars"></i> </label>
+      <label class="logo"> <span>Port</span>folio
+      </label>
+      <ul>
+        <li><a href="#" target="_blank" class="active">Home</a></li>
+        <li><a href="#" target="_blank" class="active1">About</a></li>
+        <li><a href="#" target="_blank" class="active2">Contact</a></li>
+        <li><a href="#" target="_blank" class="active3">Support</a></li>
+        <li><a><i class="fa fa-search" onclick="show()">
+            </i></a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Graphics Designer </p>
+      <h1>Hello I'M <span> Aayush</span> </h1>
+     <small> I am learning html css now.</small>
+      <!-- <a href="" class=" btn-btn2">Download CV</a> -->
+    </div>
+  </div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="aboutcol1">
+          <img src="IMG_0102(1).JPG" width="230px">
+        </div>
+        <div class="aboutcol2">
+          <h1 class="sub">About Me</h1>
+          <p>Passionate about cricket, I'm an avid lover of the game and a dedicated designer. With a deep appreciation for the intricacies of cricket, I find joy in following matches, analyzing strategies, and celebrating the spirit of the sport. Alongside my cricket fervor, I channel my creative energy into designing something new. From graphic design to innovative concepts, I thrive on bringing fresh ideas to life. With a blend of my love for cricket and my eye for design, I aim to create experiences that captivate and inspire. </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing page</li>
+              <li><span>Front-End Devlopment</span><br>Designing Web</li>
+              <li><span>Graphics Designer</span><br>Designing arts</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022</span><br>Team Vertex</li>
+              <li><span>2023-Current</span><br>Code with harry</li>
+              <li><span>2022-2023</span><br>Dinda instution</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2010-2016</span><br>Tribhuwan Boarding School</li>
+              <li><span>2018-2020</span><br>Kathamandu Model College</li>
+              <li><span>2023</span><br>Sagarmatha College of Information Technology</li>
+            </ul>
           </div>
         </div>
       </div>
-      </div>
-      
- <!-- yetikai + garya -->
- <div class="box">
-  <img src="pp.JPG" alt="pp"   width="1500px">
- </div>
- <div class="para">
- <h1>Ayush Pathak</h1>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, blanditiis dolor recusandae ratione temporibus nulla vel culpa doloremque ipsa quisquam voluptate et quaerat, aliquid commodi voluptates in voluptatum suscipit. Culpa, minus molestiae iste nisi tenetur unde voluptatum autem ad laborum porro quibusdam veritatis fuga voluptate neque?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est praesentium, qui labore deserunt harum eligendi atque vero deleniti repellat, quo consequuntur voluptatibus ducimus nisi debitis earum voluptatem corporis eaque delectus dolore beatae. Facere, accusantium delectus suscipit mollitia quisquam debitis aut dolorum provident quos quaerat commodi laudantium quam, temporibus ut. Eveniet quo commodi maxime deserunt fuga dignissimos a incidunt iste saepe illum? Itaque illo expedita impedit fugiat pariatur amet sed quos, molestias eius molestiae laboriosam accusantium eveniet at porro enim dolores deleniti ex? Omnis incidunt reprehenderit error nihil harum magni sapiente quis. Ipsa reprehenderit atque qui eum minus, non voluptas sed architecto officia vero ipsam ut corrupti similique perspiciatis? Vel earum enim iste nam dolorem nobis, animi consectetur. Atque aperiam voluptatibus reiciendis! Doloribus atque quae voluptatibus fuga aperiam laboriosam veritatis ab facere accusamus consequatur sapiente animi voluptatem, recusandae, pariatur reprehenderit voluptas tempore maxime omnis nulla ex quasi est provident sit? Debitis quae commodi expedita voluptas in omnis, dignissimos vitae veniam rem consequuntur quis recusandae magni iusto aliquid dolor perferendis dolores numquam. Numquam, sint. Cum itaque laboriosam autem amet nesciunt. Beatae necessitatibus adipisci, suscipit architecto eos ad maxime quos fugiat quis ipsam cum officiis, reiciendis nam? Distinctio asperiores placeat numquam dignissimos esse, corporis suscipit ipsam repudiandae perferendis sit tempore, dolores quo, officia officiis nam adipisci eaque? Quae, sunt iusto? Facere optio animi ullam aperiam reiciendis accusantium inventore incidunt est, soluta assumenda! Quaerat necessitatibus fugiat iste veritatis, odit numquam praesentium repellendus ipsum voluptatibus quo corrupti, eligendi fuga porro possimus repellat assumenda maiores aliquam quia unde vero corporis. Alias eius ad rem sint consequuntur voluptatem itaque magni, dolores exercitationem odit perferendis facilis in, earum minima accusamus distinctio accusantium esse porro tenetur, nemo praesentium harum vero sequi laborum. Ea, adipisci veniam dicta suscipit harum consequatur cum sapiente quam accusamus ad libero, nisi optio quis veritatis.
-  
- </div>
-  </body>
-  <footer>
-    <div class="footercontent">
-        <h3>Hya</h3>
-        <p>It is a  fun blog website where you will find nothing.if you have time do something do not vist my website.It take me 1 months to learn html and css and Hope one day i will made better than this.</p>
-        <ul class="socials">
-            <li><a href="https://www.facebook.com/Aayushpathak.comAayush" target="_blank"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com/PathakAaayush" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/ayushpathak.c/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/ayush---pathak/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
-        </ul>
     </div>
-    <div class="footerbottom">
-      <b>  <p>copyright &copy; <a href="#">Hya</a >    </p></b>
-</footer>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>UI/UX Desgin</h2>
+          <p>User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience</p>
+          <a href=" https://www.simplilearn.com/how-to-become-ui-ux-designer-article" target="_blank">Learn More</a>
+        </div>
+        <div>
+          <i class=" fas fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development. Web design used to be focused on designing websites for desktop browsers</p>
+          <a href="https://www.interaction-design.org/literature/topics/web-design" target="_blank">Learn More</a>
+        </div>
+        <div>
+ 
+          <i class="fa-solid fa-pen"></i>
+          <h2>Graphics Designing</h2>
+          <p>Graphic design is a profession, academic discipline and applied art whose activity consists in projecting visual communications intended to transmit specific messages to social groups, with specific objectives. Graphic design is an interdisciplinary branch of design of the fine arts</p>
+          <a href="https://en.wikipedia.org/wiki/Graphic_design" target="_blank">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+
+  <section id="skills" class="skills">
+    <div class="main-text">
+      <h2>Skills</h2>
+    </div>
+    <div class="skill-main">
+      <div class="skill-left">
+        <!-- <h3>Technical Skills</h3> -->
+        <div class="skill-bar">
+        <div class="info">
+          <p>HTML</p>
+          <p>85%</p>
+          
+        </div>
+        
+        <div class="bar">
+          <span class="html"></span>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <div class="info">
+          <p>Figma</p>
+          <p>35%</p>
+        </div>
+        <div class="bar">
+          <span class="figma"></span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <div class="info">
+          <p>Adobe Photoshop</p>
+          <p>55%</p>
+        </div>
+        <div class="bar">
+          <span class="photoshop"></span>
+        </div>
+      </div>
+
+      <div class="skill-bar">
+        <div class="info">
+          <p>CSS</p>
+          <p>65%</p>
+        </div>
+        <div class="bar">
+          <span class="css"></span>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </section>
+  
+  </section>
+
+  <!-- --------contact us------- -->
+  <div id="contact">
+    <div class= "container">
+        <div class="row">
+             <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p> <i class="fas fa-paper-plane  "></i> ptkaayush13@gmail.com</p>
+                 <p> <i class="fas fa-phone-square-alt"></i> 9812458932</p>
+                 <div class="social-icons">
+                      <a href="https://www.facebook.com/Aayushpathak.comAayush" target="_blank"><i class= "fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/PathakAaayush" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                      <a href="https://www.instagram.com/ayushpathak.c/" target="_blank"><i class= "fab fa-instagram"></i><ii</a>
+                      <a href="https://www.linkedin.com/in/ayush---pathak/" target="_blank"><i class= "fab fa-linkedin"></i></a>
+         
+                 </div>
+               <a href="" class="btn btn2">Download CV</a>
+             </div>
+             <div class="contact-right">
+              <form >
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button> 
+
+              </form>
+             </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &copy; Aayush <i class="fas fa-heart"></i></p>
+  </div>
+
+  </div>
+  
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+
+</html>
